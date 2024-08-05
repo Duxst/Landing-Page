@@ -214,6 +214,44 @@
 						margin-bottom: 0;
 					}
 					</style>
+					<!--Section-->
+					<!-- Artwork Section -->
+					<section id="artwork">
+						<header>
+							<h2>Artwork</h2>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<img src="images/Photos/IMG_0185.JPG" alt="Artwork 1" class="artwork-image" />
+								<img src="images/Photos/IMG_0184.JPG" alt="Artwork 2" class="artwork-image" />
+								<img src="images/Photos/IMG_0408.JPG" alt="Artwork 3" class="artwork-image" />
+								<img src="images/Photos/IMG_0752.JPG" alt="Artwork 4" class="artwork-image" />
+							</div>
+						</div>
+					</section>
+					
+					<!-- CSS to style the artwork section -->
+					<style>
+					.gallery {
+						display: flex;
+						flex-wrap: wrap;
+						gap: 1em;
+						justify-content: center;
+					}
+					
+					.artwork-image {
+						width: 100%;
+						max-width: 300px; /* Adjust the size as needed */
+						border-radius: 8px;
+						transition: transform 0.2s;
+					}
+					
+					.artwork-image:hover {
+						transform: scale(1.05);
+					}
+					</style>
+
+
 
 							<!-- Section -->
 								<section>
